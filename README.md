@@ -1,3 +1,10 @@
+<p style="display: flex; align-items: center; justify-content: center; margin-bottom: 2em;">
+    <a href="https://github.com/tedem/mybb-relator">
+        <img src="https://community.mybb.com/uploads/mods/previews/preview_118750_1676651599_c52563afad63c7e0f81bbf36da9ba219.png"
+            width="200" height="200" alt="Relator for MyBB" style="border-radius: 16px;">
+    </a>
+</p>
+
 # Relator for MyBB
 
 Describe the qualification of your outgoing links. Adds `nofollow ugc noopener external` to external links.
