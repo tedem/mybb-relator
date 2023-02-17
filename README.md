@@ -1,13 +1,13 @@
 <p align="center">
     <a href="https://github.com/tedem/mybb-relator">
-        <img src="https://community.mybb.com/uploads/mods/previews/preview_118750_1676651599_c52563afad63c7e0f81bbf36da9ba219.png"
+        <img src="https://i.imgur.com/P0MQBi7.png"
             width="200" height="200" alt="Relator for MyBB">
     </a>
 </p>
 
 # Relator for MyBB
 
-Describe the qualification of your outgoing links. Adds `nofollow ugc noopener external` to external links.
+Another nofollow plugin. By adding `rel="nofollow ugc noopener external"` tag to your outbound links, it informs the bots about the quality of your link and ensures that you don't give backlinks to third-party sites.
 
 ## Details
 
