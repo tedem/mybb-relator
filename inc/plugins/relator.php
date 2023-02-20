@@ -23,7 +23,7 @@ if (version_compare(phpversion(), '7.0', '<=') || version_compare(phpversion(), 
 \define('TEDEM_RELATOR_ID', 'relator');
 \define('TEDEM_RELATOR_NAME', ucfirst(TEDEM_RELATOR_ID));
 \define('TEDEM_RELATOR_AUTHOR', 'tedem');
-\define('TEDEM_RELATOR_VERSION', '1.0.0');
+\define('TEDEM_RELATOR_VERSION', '1.0.1');
 
 // hooks
 if (! \defined('IN_ADMINCP')) {
