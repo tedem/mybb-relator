@@ -33,8 +33,9 @@ if (! \defined('IN_ADMINCP')) {
 function relator_info(): array
 {
     $description = <<<'HTML'
-<div style="margin-top: 1em;">Describe the qualification of your outgoing links.</div>
-<div style="margin-top: 1em;">Adds <b>`nofollow ugc noopener external`</b> to external links.</div>
+<div style="margin-top: 1em;">
+    Another nofollow plugin. By adding <b>rel="nofollow ugc noopener external"</b> tag to your outbound links, it informs the bots about the quality of your link and ensures that you don't give backlinks to third-party sites.
+</div>
 HTML;
 
     if (relator_donation_status()) {
