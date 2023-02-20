@@ -152,13 +152,13 @@ function relator_donation(): string
 
     relator_donation_edit();
 
-    $BMC  = '<a href="https://www.buymeacoffee.com/tedem">Buy me a coffee</a>';
-    $KOFI = '<a href="https://ko-fi.com/tedem">KO-FI</a>';
+    $BMC  = '<a href="https://www.buymeacoffee.com/tedem"><b>Buy me a coffee</b></a>';
+    $KOFI = '<a href="https://ko-fi.com/tedem"><b>KO-FI</b></a>';
 
-    $close_link   = 'index.php?module=config-plugins&relator=deactivate-donation&my_post_key=' . $mybb->post_code;
-    $close_button = ' (<a href="' . $close_link . '" title="This message bothers me!">Close donation</a>)';
+    $close_link   = 'index.php?module=config-plugins&' . TEDEM_RELATOR_ID . '=deactivate-donation&my_post_key=' . $mybb->post_code;
+    $close_button = ' &mdash; <a href="' . $close_link . '"><b>Close Donation</b></a>';
 
-    $message = '<b>Donation:</b> Support for new plugins, themes, etc. via ' . $BMC . ' or ' . $KOFI . '.' . $close_button;
+    $message = '<b>Donation:</b> Support for new plugins, themes, etc. via ' . $BMC . ' or ' . $KOFI . $close_button;
 
     return '<div style="margin-top: 1em;">' . $message . '</div>';
 }
