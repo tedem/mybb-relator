@@ -2,6 +2,7 @@
 
 /**
  * Relator
+ *
  * Describe the qualification of your outgoing links.
  * Adds `nofollow ugc noopener external` to external links.
  *
