@@ -11,7 +11,7 @@ Another nofollow plugin. By adding `rel="nofollow ugc noopener external"` tag to
 
 ## Details
 
-- **Version:** 1.0.0
+- **Version:** 1.0.1
 - **MyBB Versions:** 1.8.x
 
 ## Install
