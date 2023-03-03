@@ -170,11 +170,7 @@ function relator_donation_status(): bool
 
     $donation = $cache->read(TEDEM_RELATOR_AUTHOR);
 
-    if (isset($donation[TEDEM_RELATOR_ID]['donation']) && $donation[TEDEM_RELATOR_ID]['donation'] == 1) {
-        return true;
-    }
-
-    return false;
+    return isset($donation[TEDEM_RELATOR_ID]['donation']) && $donation[TEDEM_RELATOR_ID]['donation'] == 1;
 }
 
 function relator_donation_edit(): void
