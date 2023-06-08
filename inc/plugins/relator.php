@@ -78,11 +78,7 @@ function relator_is_installed(): bool
     // has cache
     $plugins = $cache->read(TEDEM_RELATOR_AUTHOR);
 
-    if (isset($plugins[TEDEM_RELATOR_ID])) {
-        return true;
-    }
-
-    return false;
+    return isset($plugins[TEDEM_RELATOR_ID]);
 }
 
 function relator_uninstall(): void
